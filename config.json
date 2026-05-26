@@ -1,0 +1,36 @@
+{
+  "live_trading_enabled": false,
+  "trading_pair": [
+    "SOL/USDT",
+    "BTC/USDT",
+    "ETH/USDT",
+    "AVAX/USDT",
+    "LINK/USDT",
+    "ARB/USDT",
+    "NEAR/USDT"
+  ],
+  "min_confidence": 65,
+  "min_score": 5,
+  "trailing_sl_pct": 0.02,
+  "max_leverage": 3,
+  "atr_chop_threshold": 1.5,
+  "slippage_bps": 50,
+  "max_priority_fee_lamports": 100000,
+  "solana_rpc_url": "https://api.mainnet-beta.solana.com",
+  "sentiment_block_buy": -0.9,
+  "sentiment_block_sell": 0.9,
+  "partial_take_profit_pct": 0.50,
+  "spike_alert_pct": 3.0,
+  "whale_volume_multiplier": 1.5,
+  "signal_cycle_minutes": 60,
+  "historical_baseline_profit": 1500,
+  "hf_dataset_repo": "sol-matrix-bot/cryptoai-state-data",
+  "api_retry_attempts": 3,
+  "api_retry_delay": 5,
+  "performance_metrics": {
+    "total_signals_generated": 0,
+    "successful_signals": 0,
+    "failed_signals": 0,
+    "current_win_rate_pct": 0.0
+  }
+}
